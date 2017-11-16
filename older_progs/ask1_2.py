@@ -1,0 +1,5 @@
+print("Think a number between 1 and 100")
+n3 = input("Give number's reminder of 3 : ")
+n5 = input("Give number's reminder of 5 : ")
+n7 = input("Give number's reminder of 7 : ")
+print ("The number is : ", (70*n3 + 21*n5 + 15*n7) % 105)
